@@ -1,14 +1,14 @@
 /**
-  * ParticlePack2 Shotgunflashblue Effect.
+  * ParticlePack2 Flamethrowerblue Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function (state,x,y) { 
-   this.config = {
-  "numParts": 6,
+Kiwi.Plugins.ParticlePack2.Flamethrowerblue = function (state,x,y) { 
+  this.config = {
+  "numParts": 25,
   "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 5,
@@ -20,76 +20,75 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function (state,x,y) {
   "posAngle": 0,
   "posLength": 200,
   "posRandomLine": true,
-  "posConstrainRadial": true,
+  "posConstrainRadial": false,
   "posRandomRadial": true,
   "posShape": "point",
   "maxVel": 100,
   "minVel": 70,
   "velConstrainRect": true,
-  "velConstrainRadial": false,
-  "velRandomRadial": false,
+  "velConstrainRadial": true,
+  "velRandomRadial": true,
   "velShape": "point",
-  "velOffsetX": 400,
+  "velOffsetX": 300,
   "velOffsetY": 0,
-  "velAngMin": 0,
-  "velAngMax": 0,
-  "velRadius": 144,
+  "velAngMin": -6,
+  "velAngMax": 6,
+  "velRadius": 20,
   "velRadialStart": 0,
   "velRadialEnd": 6.283185307179586,
   "velWidth": 200,
   "velHeight": 200,
-  "velAngle": 0,
-  "velLength": 20,
+  "velAngle": 0.0004784919240787009,
+  "velLength": 200,
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.4,
+  "minLifespan": 0.1,
+  "maxLifespan": 0.6,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 1,
-  "endSize": 200,
-  "loop": false,
+  "startSize": 5,
+  "endSize": 80,
+  "loop": true,
   "colEnvKeyframes": [
     "0.2",
     "0.3"
   ],
-  "alpha": 1,
-   "colEnv0": [
-    0.611764705882353,
-    0.9647058823529412,
-    0.9921568627450981
+  "alpha": 0.7,
+  "colEnv0": [
+    0.996078431372549,
+    0.788235294117647,
+    0.984313725490196
   ],
   "colEnv1": [
-    0.4392156862745098,
-    0.7450980392156863,
+    0.7647058823529411,
+    0.4117647058823529,
     0.9921568627450981
   ],
   "colEnv2": [
-    0.10980392156862745,
-    0.38823529411764707,
+    0.4823529411764706,
+    0.21176470588235294,
     0.9921568627450981
   ],
   "colEnv3": [
-    0.06666666666666667,
-    0.2549019607843137,
+    0.3686274509803922,
+    0.24313725490196078,
     0.9921568627450981
   ],
   "alphaGradient": [
-    "1",
-    "1",
     "0",
+    "1",
+    "1",
     "0"
   ],
   "alphaStops": [
-    0.3,
+    "0.1",
     "0.5"
   ],
   "additive": true,
   "cells": [
-    4,
-    16,
-    17
+    3,
+    4
   ],
   "textureID": "_128x128"
 }

@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Rifleflashblue Effect.
+  * ParticlePack2 Shotgunflashblue Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Rifleflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function (state,x,y) { 
    this.config = {
   "numParts": 6,
   "posOffsetX": 0,
@@ -55,25 +55,25 @@ Kiwi.Plugins.ParticlePack2.Rifleflashblue = function (state,x,y) {
     "0.3"
   ],
   "alpha": 1,
-   "colEnv0": [
-    0.611764705882353,
-    0.9647058823529412,
-    0.9921568627450981
+  "colEnv0": [
+    0.9921568627450981,
+    0.9764705882352941,
+    0.8313725490196079
   ],
   "colEnv1": [
-    0.4392156862745098,
-    0.7450980392156863,
-    0.9921568627450981
+    0.9921568627450981,
+    0.9176470588235294,
+    0.5176470588235295
   ],
   "colEnv2": [
-    0.10980392156862745,
-    0.38823529411764707,
-    0.9921568627450981
+    0.9921568627450981,
+    0.8588235294117647,
+    0.2196078431372549
   ],
   "colEnv3": [
-    0.06666666666666667,
-    0.2549019607843137,
-    0.9921568627450981
+    0.996078431372549,
+    0.8235294117647058,
+    0.027450980392156862
   ],
   "alphaGradient": [
     "1",
