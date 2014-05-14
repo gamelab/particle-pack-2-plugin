@@ -46,7 +46,7 @@
 * @class ParticlePack1
 * @main
 */
-Kiwi.Plugins.ParticlePack1 = {
+Kiwi.Plugins.ParticlePack2 = {
   
   /**
   * The name of this plugin.
@@ -54,7 +54,7 @@ Kiwi.Plugins.ParticlePack1 = {
   * @type String
   * @public
   */
-  name:'ParticlePack1',
+  name:'ParticlePack2',
 
   /**
   * The version of this plugin in semver (semantic versioning) format
@@ -94,7 +94,7 @@ Kiwi.Plugins.ParticlePack1 = {
 * Registers this plugin with the Global Kiwi Plugins Manager if it is avaiable.
 * 
 */
-Kiwi.PluginManager.register(Kiwi.Plugins.ParticlePack1);
+Kiwi.PluginManager.register(Kiwi.Plugins.ParticlePack2);
 
 
  

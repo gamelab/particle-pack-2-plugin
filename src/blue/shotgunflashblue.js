@@ -1,12 +1,12 @@
 /**
-  * ParticlePack1 Bam Effect.
+  * ParticlePack2 Shotgunflashblue Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack1.Bam = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function (state,x,y) { 
   this.bamConfig = {
     "numParts": 1,
     "posOffsetX": 0,
@@ -178,8 +178,8 @@ Kiwi.Plugins.ParticlePack1.Bam = function (state,x,y) {
   var group = new Kiwi.Group(state)
   group.x = x;
   group.y = y;
-  var bam = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack1SpriteSheet,0,0,this.bamConfig);
-  var stars = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack1SpriteSheet,0,0,this.starsConfig);
+  var bam = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.bamConfig);
+  var stars = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.starsConfig);
   group.addChild(bam);
   group.addChild(stars);
 

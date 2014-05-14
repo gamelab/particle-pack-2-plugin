@@ -1,4 +1,4 @@
-WebGL Particles Pack 1 - Cartoon Particles
+WebGL Particles Pack 2 - Cartoon Particles
 =======================================
 -------------------------------------
 

@@ -1,8 +1,8 @@
 {
-    "name": "ParticlePack1",
+    "name": "ParticlePack2",
     "version": "0.1.0",
-    "filenameBase": "particlepack1",
-    "description": "Description for ParticlePack1.",
+    "filenameBase": "particlepack2",
+    "description": "Gunflare particle pack.",
     "author": {
         "name" : "GameLab",
         "email" : ""
