@@ -342,8 +342,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "src\\particlepack2.js": {
-            "name": "src\\particlepack2.js",
+        "src\\_particlepack2.js": {
+            "name": "src\\_particlepack2.js",
             "modules": {
                 "Kiwi.Plugins": 1
             },
@@ -369,7 +369,7 @@
             "namespaces": {
                 "Kiwi.Plugins": 1
             },
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 1
         },
         "Kiwi.Plugins": {
@@ -385,7 +385,7 @@
             },
             "module": "Kiwi",
             "namespace": "",
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 1,
             "description": "For a walkthrough on setting up the particle pack plugin check the <a href=\"https://github.com/gamelab/particle-pack-1-plugin/blob/master/README.md\"><README./a>",
             "tag": "main",
@@ -404,7 +404,7 @@
             "module": "Kiwi",
             "submodule": "Kiwi.Plugins",
             "namespace": "Kiwi.Plugins",
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 1,
             "description": "For a walkthrough on setting up the particle pack plugin check the <a href=\"https://github.com/gamelab/particle-pack-1-plugin/blob/master/README.md\"><README./a>"
         }
@@ -987,7 +987,7 @@
             "class": "Kiwi.Plugins.ParticlePack1"
         },
         {
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 11,
             "description": "The name of this plugin.",
             "itemtype": "property",
@@ -1001,7 +1001,7 @@
             "namespace": "Kiwi.Plugins"
         },
         {
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 19,
             "description": "The version of this plugin in semver (semantic versioning) format",
             "itemtype": "property",
@@ -1015,7 +1015,7 @@
             "namespace": "Kiwi.Plugins"
         },
         {
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 27,
             "description": "The minimum version of Kiwi.js required to run this plugin in semver (semantic versioning) format",
             "itemtype": "property",
@@ -1029,7 +1029,7 @@
             "namespace": "Kiwi.Plugins"
         },
         {
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 35,
             "description": "Other plugins required for this plugin to run.",
             "itemtype": "property",
@@ -1043,7 +1043,7 @@
             "namespace": "Kiwi.Plugins"
         },
         {
-            "file": "src\\particlepack2.js",
+            "file": "src\\_particlepack2.js",
             "line": 53,
             "description": "Registers this plugin with the Global Kiwi Plugins Manager if it is avaiable.",
             "class": "Kiwi.Plugins.ParticlePack1",
@@ -1055,7 +1055,7 @@
     "warnings": [
         {
             "message": "Missing item type\nRegisters this plugin with the Global Kiwi Plugins Manager if it is avaiable.",
-            "line": " src\\particlepack2.js:53"
+            "line": " src\\_particlepack2.js:53"
         }
     ]
 }
