@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Shotgunflashblue Effect.
+  * ParticlePack2 Shotgunflashpurple Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Shotgunflashpurple = function (state,x,y) { 
    this.config = {
   "numParts": 6,
   "posOffsetX": 0,

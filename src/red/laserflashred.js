@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Laserflashblue Effect.
+  * ParticlePack2 Laserflashred Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Laserflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Laserflashred = function (state,x,y) { 
 
   this.flares1Config = {
   "numParts": 6,

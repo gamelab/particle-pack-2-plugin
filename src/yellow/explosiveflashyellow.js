@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Explosiveflash Effect.
+  * ParticlePack2 Explosiveflashyellow Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function (state,x,y) { 
   this.flares1Config = {
   "numParts": 2,
   "posOffsetX": 0,

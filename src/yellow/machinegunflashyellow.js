@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Machinegunflashblue Effect.
+  * ParticlePack2 Machinegunflashyellow Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
   "posOffsetX": 0,

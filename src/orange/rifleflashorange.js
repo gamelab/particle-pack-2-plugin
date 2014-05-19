@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Rifleflashblue Effect.
+  * ParticlePack2 Rifleflashorange Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Rifleflashblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Rifleflashorange = function (state,x,y) { 
   this.bamConfig = {
   "numParts": 1,
   "posOffsetX": 30,

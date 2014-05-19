@@ -1,12 +1,12 @@
 /**
-  * ParticlePack2 Flamethrowerblue Effect.
+  * ParticlePack2 Flamethrowergreen Effect.
   * @property Bam
   * @type Kiwi.Group
   * @public
   * @static
 */
 
-Kiwi.Plugins.ParticlePack2.Flamethrowerblue = function (state,x,y) { 
+Kiwi.Plugins.ParticlePack2.Flamethrowergreen = function (state,x,y) { 
   this.config = {
   "numParts": 25,
   "posOffsetX": 0,
