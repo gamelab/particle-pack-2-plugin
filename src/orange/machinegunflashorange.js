@@ -262,9 +262,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+ this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 30,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -278,8 +278,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -298,12 +298,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",

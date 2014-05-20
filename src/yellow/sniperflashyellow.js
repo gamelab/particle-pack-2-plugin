@@ -175,7 +175,7 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares3Config ={
+this.flares3Config ={
   "numParts": 1,
   "posOffsetX": 40,
   "posOffsetY": 0,
@@ -211,12 +211,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
