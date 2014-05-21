@@ -558,7 +558,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -643,7 +643,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -729,7 +729,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -813,7 +813,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -827,8 +827,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -847,12 +847,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -1613,12 +1613,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -2344,7 +2344,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashgreen = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2429,7 +2429,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2515,7 +2515,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2597,9 +2597,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+ this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -2613,8 +2613,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -2633,12 +2633,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -3363,7 +3363,7 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares3Config ={
+ this.flares3Config ={
   "numParts": 1,
   "posOffsetX": 40,
   "posOffsetY": 0,
@@ -3399,12 +3399,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -4130,7 +4130,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4215,7 +4215,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4301,7 +4301,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4383,9 +4383,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+ this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -4399,8 +4399,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -4419,12 +4419,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -5149,7 +5149,7 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares3Config ={
+ this.flares3Config ={
   "numParts": 1,
   "posOffsetX": 40,
   "posOffsetY": 0,
@@ -5185,12 +5185,13 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
+  "loop": false,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -5916,7 +5917,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashpurple = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6001,7 +6002,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6087,7 +6088,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6169,9 +6170,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+ this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -6185,8 +6186,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -6205,12 +6206,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -6935,7 +6936,7 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares3Config ={
+this.flares3Config ={
   "numParts": 1,
   "posOffsetX": 40,
   "posOffsetY": 0,
@@ -6971,12 +6972,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -7702,7 +7703,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashred = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7787,7 +7788,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7873,7 +7874,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7955,9 +7956,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -7971,8 +7972,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -7991,12 +7992,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -8757,12 +8758,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -9493,7 +9494,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashyellow = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9578,7 +9579,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9664,7 +9665,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 0,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9746,9 +9747,9 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares4Config ={
+ this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": 70,
+  "posOffsetX": -25,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -9762,8 +9763,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
   "posConstrainRadial": true,
   "posRandomRadial": true,
   "posShape": "point",
-  "maxVel": 100,
-  "minVel": 70,
+  "maxVel": 50,
+  "minVel": 50,
   "velConstrainRect": true,
   "velConstrainRadial": false,
   "velRandomRadial": false,
@@ -9782,12 +9783,12 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0,
-  "minLifespan": 0.1,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.08,
+  "maxLifespan": 0.08,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 50,
-  "endSize": 100,
+  "startSize": 40,
+  "endSize": 70,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
@@ -10512,7 +10513,7 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function (state,x,y) {
   ],
   "textureID": "_128x128"
 }
-  this.flares3Config ={
+this.flares3Config ={
   "numParts": 1,
   "posOffsetX": 40,
   "posOffsetY": 0,
@@ -10548,12 +10549,12 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function (state,x,y) {
   "velRandomLine": true,
   "minStartTime": 0,
   "maxStartTime": 0.1,
-  "minLifespan": 0.2,
-  "maxLifespan": 0.2,
+  "minLifespan": 0.07,
+  "maxLifespan": 0.07,
   "gravityX": 0,
   "gravityY": 0,
-  "startSize": 90,
-  "endSize": 100,
+  "startSize": 50,
+  "endSize": 90,
   "loop": false,
   "colEnvKeyframes": [
     "0.2",
