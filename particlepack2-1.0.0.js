@@ -558,7 +558,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -643,7 +643,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -729,7 +729,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -813,7 +813,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function (state,x,y) {
 }
   this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -2344,7 +2344,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashgreen = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2429,7 +2429,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2515,7 +2515,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -2599,7 +2599,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) {
 }
  this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -4130,7 +4130,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4215,7 +4215,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4301,7 +4301,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -4385,7 +4385,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
  this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -5917,7 +5917,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashpurple = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6002,7 +6002,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6088,7 +6088,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -6172,7 +6172,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function (state,x,y) {
 }
  this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -7703,7 +7703,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashred = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7788,7 +7788,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7874,7 +7874,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -7958,7 +7958,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
 this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
@@ -9494,7 +9494,7 @@ Kiwi.Plugins.ParticlePack2.Laserflashyellow = function (state,x,y) {
 Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9579,7 +9579,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9665,7 +9665,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -9749,7 +9749,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function (state,x,y) {
 }
  this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
