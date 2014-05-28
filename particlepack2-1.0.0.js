@@ -22,7 +22,7 @@ Kiwi.Plugins.ParticlePack2 = {
   * @type String
   * @public
   */
-  version:'0.1.0',
+  version:'1.0.0',
 
   /**
   * The minimum version of Kiwi.js required to run this plugin in semver (semantic versioning) format
@@ -30,7 +30,7 @@ Kiwi.Plugins.ParticlePack2 = {
   * @type String
   * @public
   */
-  minimumKiwiVersion:'0.7.0',
+  minimumKiwiVersion:'1.0.0',
 
   /**
   * Other plugins required for this plugin to run. 
@@ -41,7 +41,7 @@ Kiwi.Plugins.ParticlePack2 = {
   pluginDependencies: [
     {
       name:'ParticlesGL',
-      minimumVersion:'0.9.0'
+      minimumVersion:'1.0.2'
     }
 
   ]
