@@ -9,7 +9,7 @@
 Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) { 
  this.flares1Config ={
   "numParts": 6,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -94,7 +94,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -180,7 +180,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
   this.flares3Config ={
   "numParts": 1,
-  "posOffsetX": 0,
+  "posOffsetX": 40,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -264,7 +264,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function (state,x,y) {
 }
  this.flares4Config ={
   "numParts": 1,
-  "posOffsetX": -25,
+  "posOffsetX": 15,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,
