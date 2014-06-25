@@ -95,7 +95,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function (state,x,y) {
 
   this.flares2Config = {
   "numParts": 9,
-  "posOffsetX": 30,
+  "posOffsetX": 20,
   "posOffsetY": 0,
   "posRadius": 5,
   "posRadialStart": 0,

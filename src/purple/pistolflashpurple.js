@@ -93,7 +93,7 @@ Kiwi.Plugins.ParticlePack2.Pistolflashpurple = function (state,x,y) {
 }
   this.flares2Config = {
   "numParts": 1,
-  "posOffsetX": 20,
+  "posOffsetX": 10,
   "posOffsetY": 0,
   "posRadius": 3,
   "posRadialStart": 0,

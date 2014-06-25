@@ -94,7 +94,7 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function (state,x,y) {
 }
   this.flares2Config ={
   "numParts": 1,
-  "posOffsetX": 40,
+  "posOffsetX": 30,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,

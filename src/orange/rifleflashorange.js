@@ -9,7 +9,7 @@
 Kiwi.Plugins.ParticlePack2.Rifleflashorange = function (state,x,y) { 
   this.bamConfig = {
   "numParts": 1,
-  "posOffsetX": 30,
+  "posOffsetX": 20,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
@@ -97,7 +97,7 @@ Kiwi.Plugins.ParticlePack2.Rifleflashorange = function (state,x,y) {
 }
   this.starsConfig = {
   "numParts": 1,
-  "posOffsetX": 30,
+  "posOffsetX": 25,
   "posOffsetY": 0,
   "posRadius": 75.6,
   "posRadialStart": 0,
