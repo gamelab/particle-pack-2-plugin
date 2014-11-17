@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>src\green\machinegunflashgreen.js - ParticlePack2</title>
+    <title>src/green/machinegunflashgreen.js - ParticlePack2</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
     <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
@@ -19,7 +19,7 @@
             
         </div>
         <div class="yui3-u-1-4 version">
-            <em>API Docs for: 1.0.0</em>
+            <em>API Docs for: 1.0.2</em>
         </div>
     </div>
     <div id="bd" class="yui3-g">
@@ -41,7 +41,7 @@
         <div id="api-tabview-panel">
             <ul id="api-classes" class="apis classes">
             
-                <li><a href="../classes/Kiwi.Plugins.ParticlePack1.html">Kiwi.Plugins.ParticlePack1</a></li>
+                <li><a href="../classes/Kiwi.Plugins.ParticlePack2.html">Kiwi.Plugins.ParticlePack2</a></li>
             
             </ul>
 
@@ -86,376 +86,387 @@
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-                        <h1 class="file-heading">File: src\green\machinegunflashgreen.js</h1>
+                        <h1 class="file-heading">File: src/green/machinegunflashgreen.js</h1>
 
 <div class="file">
     <pre class="code prettyprint linenums">
 /**
-  * ParticlePack2 Machinegunflashgreen Effect.
-  * @property Bam
-  * @type Kiwi.Group
-  * @public
-  * @static
+* ParticlePack2 Machinegunflashgreen Effect.
+* @method Machinegunflashgreen
+* @param state {Kiwi.State} Current state
+* @param x {Number} X position
+* @param y {Number} Y position
+* @return Kiwi.Group
+* @public
+* @static
 */
 
-Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function (state,x,y) { 
- this.flares1Config ={
-  &quot;numParts&quot;: 6,
-  &quot;posOffsetX&quot;: 40,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 75.6,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 6.283185307179586,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 100,
-  &quot;minVel&quot;: 70,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;point&quot;,
-  &quot;velOffsetX&quot;: 0,
-  &quot;velOffsetY&quot;: 0,
-  &quot;velAngMin&quot;: 0,
-  &quot;velAngMax&quot;: 0,
-  &quot;velRadius&quot;: 144,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 20,
-  &quot;velRandomLine&quot;: true,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0.1,
-  &quot;minLifespan&quot;: 0.1,
-  &quot;maxLifespan&quot;: 0.2,
-  &quot;gravityX&quot;: 0,
-  &quot;gravityY&quot;: 0,
-  &quot;startSize&quot;: 100,
-  &quot;endSize&quot;: 70,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.2&quot;,
-    &quot;0.3&quot;
-  ],
-  &quot;alpha&quot;: 0.5,
-  &quot;colEnv0&quot;: [
-    0.8745098039215686,
-    0.9803921568627451,
-    0.6745098039215687
-  ],
-  &quot;colEnv1&quot;: [
-    0.5294117647058824,
-    0.9725490196078431,
-    0.34509803921568627
-  ],
-  &quot;colEnv2&quot;: [
-    0.24313725490196078,
-    0.9686274509803922,
-    0.06666666666666667
-  ],
-  &quot;colEnv3&quot;: [
-    0,
-    0.9686274509803922,
-    0.2
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;0&quot;,
-    &quot;0&quot;
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    &quot;0.5&quot;
-  ],
-  &quot;additive&quot;: true,
-  &quot;cells&quot;: [
-    10,
-    11
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
-  this.flares2Config ={
-  &quot;numParts&quot;: 1,
-  &quot;posOffsetX&quot;: 40,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 75.6,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 6.283185307179586,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 100,
-  &quot;minVel&quot;: 70,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;center&quot;,
-  &quot;velOffsetX&quot;: 0,
-  &quot;velOffsetY&quot;: 0,
-  &quot;velAngMin&quot;: 0,
-  &quot;velAngMax&quot;: 0,
-  &quot;velRadius&quot;: 144,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 20,
-  &quot;velRandomLine&quot;: true,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0,
-  &quot;minLifespan&quot;: 0.2,
-  &quot;maxLifespan&quot;: 0.2,
-  &quot;gravityX&quot;: 0,
-  &quot;gravityY&quot;: 0,
-  &quot;startSize&quot;: 70,
-  &quot;endSize&quot;: 50,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.2&quot;,
-    &quot;0.3&quot;
-  ],
-  &quot;alpha&quot;: 1,
-  &quot;colEnv0&quot;: [
-    0.8745098039215686,
-    0.9803921568627451,
-    0.6745098039215687
-  ],
-  &quot;colEnv1&quot;: [
-    0.5294117647058824,
-    0.9725490196078431,
-    0.34509803921568627
-  ],
-  &quot;colEnv2&quot;: [
-    0.24313725490196078,
-    0.9686274509803922,
-    0.06666666666666667
-  ],
-  &quot;colEnv3&quot;: [
-    0,
-    0.9686274509803922,
-    0.2
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;0&quot;,
-    &quot;0&quot;
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    &quot;0.5&quot;
-  ],
-  &quot;additive&quot;: true,
-  &quot;cells&quot;: [
-    0,
-    1,
-    3
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
-  this.flares3Config ={
-  &quot;numParts&quot;: 1,
-  &quot;posOffsetX&quot;: 40,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 75.6,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 6.283185307179586,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 100,
-  &quot;minVel&quot;: 70,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;center&quot;,
-  &quot;velOffsetX&quot;: 0,
-  &quot;velOffsetY&quot;: 0,
-  &quot;velAngMin&quot;: 0,
-  &quot;velAngMax&quot;: 0,
-  &quot;velRadius&quot;: 144,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 20,
-  &quot;velRandomLine&quot;: true,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0,
-  &quot;minLifespan&quot;: 0.2,
-  &quot;maxLifespan&quot;: 0.2,
-  &quot;gravityX&quot;: 0,
-  &quot;gravityY&quot;: 0,
-  &quot;startSize&quot;: 100,
-  &quot;endSize&quot;: 1,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.2&quot;,
-    &quot;0.3&quot;
-  ],
-  &quot;alpha&quot;: 0.5,
-   &quot;colEnv0&quot;: [
-    0.8745098039215686,
-    0.9803921568627451,
-    0.6745098039215687
-  ],
-  &quot;colEnv1&quot;: [
-    0.5294117647058824,
-    0.9725490196078431,
-    0.34509803921568627
-  ],
-  &quot;colEnv2&quot;: [
-    0.24313725490196078,
-    0.9686274509803922,
-    0.06666666666666667
-  ],
-  &quot;colEnv3&quot;: [
-    0,
-    0.9686274509803922,
-    0.2
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;0&quot;,
-    &quot;0&quot;
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    &quot;0.5&quot;
-  ],
-  &quot;additive&quot;: true,
-  &quot;cells&quot;: [
-    8
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
- this.flares4Config ={
-  &quot;numParts&quot;: 1,
-  &quot;posOffsetX&quot;: 15,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 5,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 6.283185307179586,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 50,
-  &quot;minVel&quot;: 50,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;point&quot;,
-  &quot;velOffsetX&quot;: 400,
-  &quot;velOffsetY&quot;: 0,
-  &quot;velAngMin&quot;: 0,
-  &quot;velAngMax&quot;: 0,
-  &quot;velRadius&quot;: 50,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 20,
-  &quot;velRandomLine&quot;: true,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0,
-  &quot;minLifespan&quot;: 0.08,
-  &quot;maxLifespan&quot;: 0.08,
-  &quot;gravityX&quot;: 0,
-  &quot;gravityY&quot;: 0,
-  &quot;startSize&quot;: 40,
-  &quot;endSize&quot;: 70,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.2&quot;,
-    &quot;0.3&quot;
-  ],
-  &quot;alpha&quot;: 1,
- &quot;colEnv0&quot;: [
-    0.8745098039215686,
-    0.9803921568627451,
-    0.6745098039215687
-  ],
-  &quot;colEnv1&quot;: [
-    0.5294117647058824,
-    0.9725490196078431,
-    0.34509803921568627
-  ],
-  &quot;colEnv2&quot;: [
-    0.24313725490196078,
-    0.9686274509803922,
-    0.06666666666666667
-  ],
-  &quot;colEnv3&quot;: [
-    0,
-    0.9686274509803922,
-    0.2
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;0&quot;
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    &quot;0.8&quot;
-  ],
-  &quot;additive&quot;: true,
-  &quot;cells&quot;: [
-    15,
-    17
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
+Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
+		this.flares1Config = {
+			&quot;numParts&quot;: 6,
+			&quot;posOffsetX&quot;: 40,
+			&quot;posOffsetY&quot;: 0,
+			&quot;posRadius&quot;: 75.6,
+			&quot;posRadialStart&quot;: 0,
+			&quot;posRadialEnd&quot;: 6.283185307179586,
+			&quot;posWidth&quot;: 200,
+			&quot;posHeight&quot;: 200,
+			&quot;posConstrainRect&quot;: true,
+			&quot;posAngle&quot;: 0,
+			&quot;posLength&quot;: 200,
+			&quot;posRandomLine&quot;: true,
+			&quot;posConstrainRadial&quot;: true,
+			&quot;posRandomRadial&quot;: true,
+			&quot;posShape&quot;: &quot;point&quot;,
+			&quot;maxVel&quot;: 100,
+			&quot;minVel&quot;: 70,
+			&quot;velConstrainRect&quot;: true,
+			&quot;velConstrainRadial&quot;: false,
+			&quot;velRandomRadial&quot;: false,
+			&quot;velShape&quot;: &quot;point&quot;,
+			&quot;velOffsetX&quot;: 0,
+			&quot;velOffsetY&quot;: 0,
+			&quot;velAngMin&quot;: 0,
+			&quot;velAngMax&quot;: 0,
+			&quot;velRadius&quot;: 144,
+			&quot;velRadialStart&quot;: 0,
+			&quot;velRadialEnd&quot;: 6.283185307179586,
+			&quot;velWidth&quot;: 200,
+			&quot;velHeight&quot;: 200,
+			&quot;velAngle&quot;: 0,
+			&quot;velLength&quot;: 20,
+			&quot;velRandomLine&quot;: true,
+			&quot;minStartTime&quot;: 0,
+			&quot;maxStartTime&quot;: 0.1,
+			&quot;minLifespan&quot;: 0.1,
+			&quot;maxLifespan&quot;: 0.2,
+			&quot;gravityX&quot;: 0,
+			&quot;gravityY&quot;: 0,
+			&quot;startSize&quot;: 100,
+			&quot;endSize&quot;: 70,
+			&quot;loop&quot;: false,
+			&quot;colEnvKeyframes&quot;: [
+				&quot;0.2&quot;,
+				&quot;0.3&quot;
+			],
+			&quot;alpha&quot;: 0.5,
+			&quot;colEnv0&quot;: [
+				0.8745098039215686,
+				0.9803921568627451,
+				0.6745098039215687
+			],
+			&quot;colEnv1&quot;: [
+				0.5294117647058824,
+				0.9725490196078431,
+				0.34509803921568627
+			],
+			&quot;colEnv2&quot;: [
+				0.24313725490196078,
+				0.9686274509803922,
+				0.06666666666666667
+			],
+			&quot;colEnv3&quot;: [
+				0,
+				0.9686274509803922,
+				0.2
+			],
+			&quot;alphaGradient&quot;: [
+				&quot;1&quot;,
+				&quot;1&quot;,
+				&quot;0&quot;,
+				&quot;0&quot;
+			],
+			&quot;alphaStops&quot;: [
+				0.3,
+				&quot;0.5&quot;
+			],
+			&quot;additive&quot;: true,
+			&quot;cells&quot;: [
+				10,
+				11
+			],
+			&quot;textureID&quot;: &quot;_128x128&quot;
+		};
 
+		this.flares2Config = {
+		&quot;numParts&quot;: 1,
+		&quot;posOffsetX&quot;: 30,
+		&quot;posOffsetY&quot;: 0,
+		&quot;posRadius&quot;: 75.6,
+		&quot;posRadialStart&quot;: 0,
+		&quot;posRadialEnd&quot;: 6.283185307179586,
+		&quot;posWidth&quot;: 200,
+		&quot;posHeight&quot;: 200,
+		&quot;posConstrainRect&quot;: true,
+		&quot;posAngle&quot;: 0,
+		&quot;posLength&quot;: 200,
+		&quot;posRandomLine&quot;: true,
+		&quot;posConstrainRadial&quot;: true,
+		&quot;posRandomRadial&quot;: true,
+		&quot;posShape&quot;: &quot;point&quot;,
+		&quot;maxVel&quot;: 100,
+		&quot;minVel&quot;: 70,
+		&quot;velConstrainRect&quot;: true,
+		&quot;velConstrainRadial&quot;: false,
+		&quot;velRandomRadial&quot;: false,
+		&quot;velShape&quot;: &quot;center&quot;,
+		&quot;velOffsetX&quot;: 0,
+		&quot;velOffsetY&quot;: 0,
+		&quot;velAngMin&quot;: 0,
+		&quot;velAngMax&quot;: 0,
+		&quot;velRadius&quot;: 144,
+		&quot;velRadialStart&quot;: 0,
+		&quot;velRadialEnd&quot;: 6.283185307179586,
+		&quot;velWidth&quot;: 200,
+		&quot;velHeight&quot;: 200,
+		&quot;velAngle&quot;: 0,
+		&quot;velLength&quot;: 20,
+		&quot;velRandomLine&quot;: true,
+		&quot;minStartTime&quot;: 0,
+		&quot;maxStartTime&quot;: 0,
+		&quot;minLifespan&quot;: 0.2,
+		&quot;maxLifespan&quot;: 0.2,
+		&quot;gravityX&quot;: 0,
+		&quot;gravityY&quot;: 0,
+		&quot;startSize&quot;: 70,
+		&quot;endSize&quot;: 50,
+		&quot;loop&quot;: false,
+		&quot;colEnvKeyframes&quot;: [
+			&quot;0.2&quot;,
+			&quot;0.3&quot;
+		],
+		&quot;alpha&quot;: 1,
+		&quot;colEnv0&quot;: [
+			0.8745098039215686,
+			0.9803921568627451,
+			0.6745098039215687
+		],
+		&quot;colEnv1&quot;: [
+			0.5294117647058824,
+			0.9725490196078431,
+			0.34509803921568627
+		],
+		&quot;colEnv2&quot;: [
+			0.24313725490196078,
+			0.9686274509803922,
+			0.06666666666666667
+		],
+		&quot;colEnv3&quot;: [
+			0,
+			0.9686274509803922,
+			0.2
+		],
+		&quot;alphaGradient&quot;: [
+			&quot;1&quot;,
+			&quot;1&quot;,
+			&quot;0&quot;,
+			&quot;0&quot;
+		],
+		&quot;alphaStops&quot;: [
+			0.3,
+			&quot;0.5&quot;
+		],
+		&quot;additive&quot;: true,
+		&quot;cells&quot;: [
+			0,
+			1,
+			3
+		],
+		&quot;textureID&quot;: &quot;_128x128&quot;
+	};
 
+	this.flares3Config = {
+		&quot;numParts&quot;: 1,
+		&quot;posOffsetX&quot;: 40,
+		&quot;posOffsetY&quot;: 0,
+		&quot;posRadius&quot;: 75.6,
+		&quot;posRadialStart&quot;: 0,
+		&quot;posRadialEnd&quot;: 6.283185307179586,
+		&quot;posWidth&quot;: 200,
+		&quot;posHeight&quot;: 200,
+		&quot;posConstrainRect&quot;: true,
+		&quot;posAngle&quot;: 0,
+		&quot;posLength&quot;: 200,
+		&quot;posRandomLine&quot;: true,
+		&quot;posConstrainRadial&quot;: true,
+		&quot;posRandomRadial&quot;: true,
+		&quot;posShape&quot;: &quot;point&quot;,
+		&quot;maxVel&quot;: 100,
+		&quot;minVel&quot;: 70,
+		&quot;velConstrainRect&quot;: true,
+		&quot;velConstrainRadial&quot;: false,
+		&quot;velRandomRadial&quot;: false,
+		&quot;velShape&quot;: &quot;center&quot;,
+		&quot;velOffsetX&quot;: 0,
+		&quot;velOffsetY&quot;: 0,
+		&quot;velAngMin&quot;: 0,
+		&quot;velAngMax&quot;: 0,
+		&quot;velRadius&quot;: 144,
+		&quot;velRadialStart&quot;: 0,
+		&quot;velRadialEnd&quot;: 6.283185307179586,
+		&quot;velWidth&quot;: 200,
+		&quot;velHeight&quot;: 200,
+		&quot;velAngle&quot;: 0,
+		&quot;velLength&quot;: 20,
+		&quot;velRandomLine&quot;: true,
+		&quot;minStartTime&quot;: 0,
+		&quot;maxStartTime&quot;: 0,
+		&quot;minLifespan&quot;: 0.2,
+		&quot;maxLifespan&quot;: 0.2,
+		&quot;gravityX&quot;: 0,
+		&quot;gravityY&quot;: 0,
+		&quot;startSize&quot;: 100,
+		&quot;endSize&quot;: 1,
+		&quot;loop&quot;: false,
+		&quot;colEnvKeyframes&quot;: [
+			&quot;0.2&quot;,
+			&quot;0.3&quot;
+		],
+		&quot;alpha&quot;: 0.5,
+		&quot;colEnv0&quot;: [
+			0.8745098039215686,
+			0.9803921568627451,
+			0.6745098039215687
+		],
+		&quot;colEnv1&quot;: [
+			0.5294117647058824,
+			0.9725490196078431,
+			0.34509803921568627
+		],
+		&quot;colEnv2&quot;: [
+			0.24313725490196078,
+			0.9686274509803922,
+			0.06666666666666667
+		],
+		&quot;colEnv3&quot;: [
+			0,
+			0.9686274509803922,
+			0.2
+		],
+		&quot;alphaGradient&quot;: [
+			&quot;1&quot;,
+			&quot;1&quot;,
+			&quot;0&quot;,
+			&quot;0&quot;
+		],
+		&quot;alphaStops&quot;: [
+			0.3,
+			&quot;0.5&quot;
+		],
+		&quot;additive&quot;: true,
+		&quot;cells&quot;: [
+			8
+		],
+		&quot;textureID&quot;: &quot;_128x128&quot;
+	};
 
-  
-  var group = new Kiwi.Group(state)
-  group.x = x;
-  group.y = y;
-  var flares1 = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.flares1Config);
-  var flares2 = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.flares2Config);
-  var flares3 = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.flares3Config);
-  var flares4 = new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,0,0,this.flares4Config);
-  group.addChild(flares1);
-  group.addChild(flares2);
-  group.addChild(flares3);
-  group.addChild(flares4);
-  return group;
-}
+	this.flares4Config = {
+		&quot;numParts&quot;: 1,
+		&quot;posOffsetX&quot;: 15,
+		&quot;posOffsetY&quot;: 0,
+		&quot;posRadius&quot;: 5,
+		&quot;posRadialStart&quot;: 0,
+		&quot;posRadialEnd&quot;: 6.283185307179586,
+		&quot;posWidth&quot;: 200,
+		&quot;posHeight&quot;: 200,
+		&quot;posConstrainRect&quot;: true,
+		&quot;posAngle&quot;: 0,
+		&quot;posLength&quot;: 200,
+		&quot;posRandomLine&quot;: true,
+		&quot;posConstrainRadial&quot;: true,
+		&quot;posRandomRadial&quot;: true,
+		&quot;posShape&quot;: &quot;point&quot;,
+		&quot;maxVel&quot;: 50,
+		&quot;minVel&quot;: 50,
+		&quot;velConstrainRect&quot;: true,
+		&quot;velConstrainRadial&quot;: false,
+		&quot;velRandomRadial&quot;: false,
+		&quot;velShape&quot;: &quot;point&quot;,
+		&quot;velOffsetX&quot;: 400,
+		&quot;velOffsetY&quot;: 0,
+		&quot;velAngMin&quot;: 0,
+		&quot;velAngMax&quot;: 0,
+		&quot;velRadius&quot;: 50,
+		&quot;velRadialStart&quot;: 0,
+		&quot;velRadialEnd&quot;: 6.283185307179586,
+		&quot;velWidth&quot;: 200,
+		&quot;velHeight&quot;: 200,
+		&quot;velAngle&quot;: 0,
+		&quot;velLength&quot;: 20,
+		&quot;velRandomLine&quot;: true,
+		&quot;minStartTime&quot;: 0,
+		&quot;maxStartTime&quot;: 0,
+		&quot;minLifespan&quot;: 0.08,
+		&quot;maxLifespan&quot;: 0.08,
+		&quot;gravityX&quot;: 0,
+		&quot;gravityY&quot;: 0,
+		&quot;startSize&quot;: 40,
+		&quot;endSize&quot;: 70,
+		&quot;loop&quot;: false,
+		&quot;colEnvKeyframes&quot;: [
+			&quot;0.2&quot;,
+			&quot;0.3&quot;
+		],
+		&quot;alpha&quot;: 1,
+		&quot;colEnv0&quot;: [
+			0.8745098039215686,
+			0.9803921568627451,
+			0.6745098039215687
+		],
+		&quot;colEnv1&quot;: [
+			0.5294117647058824,
+			0.9725490196078431,
+			0.34509803921568627
+		],
+		&quot;colEnv2&quot;: [
+			0.24313725490196078,
+			0.9686274509803922,
+			0.06666666666666667
+		],
+		&quot;colEnv3&quot;: [
+			0,
+			0.9686274509803922,
+			0.2
+		],
+		&quot;alphaGradient&quot;: [
+			&quot;1&quot;,
+			&quot;1&quot;,
+			&quot;1&quot;,
+			&quot;0&quot;
+		],
+		&quot;alphaStops&quot;: [
+			0.3,
+			&quot;0.8&quot;
+		],
+		&quot;additive&quot;: true,
+		&quot;cells&quot;: [
+			15,
+			17
+		],
+		&quot;textureID&quot;: &quot;_128x128&quot;
+	};
+
+	var group = new Kiwi.Group( state );
+	group.x = x;
+	group.y = y;
+	var flares1 = new Kiwi.GameObjects.StatelessParticles(
+		state, state.textures.particlePack2SpriteSheet, 0, 0,
+		this.flares1Config );
+	var flares2 = new Kiwi.GameObjects.StatelessParticles(
+		state, state.textures.particlePack2SpriteSheet, 0, 0,
+		this.flares2Config );
+	var flares3 = new Kiwi.GameObjects.StatelessParticles(
+		state, state.textures.particlePack2SpriteSheet, 0, 0,
+		this.flares3Config );
+	var flares4 = new Kiwi.GameObjects.StatelessParticles(
+		state, state.textures.particlePack2SpriteSheet, 0, 0,
+		this.flares4Config);
+	group.addChild( flares1 );
+	group.addChild( flares2 );
+	group.addChild( flares3 );
+	group.addChild( flares4 );
+	return group;
+};
 
     </pre>
 </div>

@@ -1,7 +1,7 @@
 YUI.add("yuidoc-meta", function(Y) {
    Y.YUIDoc = { meta: {
     "classes": [
-        "Kiwi.Plugins.ParticlePack1"
+        "Kiwi.Plugins.ParticlePack2"
     ],
     "modules": [
         "Kiwi",
@@ -15,7 +15,7 @@ YUI.add("yuidoc-meta", function(Y) {
         {
             "displayName": "Kiwi.Plugins",
             "name": "Kiwi.Plugins",
-            "description": "For a walkthrough on setting up the particle pack plugin check the <a href=\"https://github.com/gamelab/particle-pack-1-plugin/blob/master/README.md\"><README./a>"
+            "description": "For a walkthrough on setting up the particle pack plugin check the\n<a href=\"https://github.com/gamelab/particle-pack-2-plugin/blob/master/README.md\">README.</a>"
         }
     ]
 } };

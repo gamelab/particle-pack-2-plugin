@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>src\orange\shotgunflashorange.js - ParticlePack2</title>
+    <title>src/orange/shotgunflashorange.js - ParticlePack2</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
     <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
@@ -19,7 +19,7 @@
             
         </div>
         <div class="yui3-u-1-4 version">
-            <em>API Docs for: 1.0.0</em>
+            <em>API Docs for: 1.0.2</em>
         </div>
     </div>
     <div id="bd" class="yui3-g">
@@ -41,7 +41,7 @@
         <div id="api-tabview-panel">
             <ul id="api-classes" class="apis classes">
             
-                <li><a href="../classes/Kiwi.Plugins.ParticlePack1.html">Kiwi.Plugins.ParticlePack1</a></li>
+                <li><a href="../classes/Kiwi.Plugins.ParticlePack2.html">Kiwi.Plugins.ParticlePack2</a></li>
             
             </ul>
 
@@ -86,108 +86,113 @@
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-                        <h1 class="file-heading">File: src\orange\shotgunflashorange.js</h1>
+                        <h1 class="file-heading">File: src/orange/shotgunflashorange.js</h1>
 
 <div class="file">
     <pre class="code prettyprint linenums">
 /**
-  * ParticlePack2 Shotgunflashorange Effect.
-  * @property Bam
-  * @type Kiwi.Group
-  * @public
-  * @static
+* ParticlePack2 Shotgunflashorange Effect.
+* @method Shotgunflashorange
+* @param state {Kiwi.State} Current state
+* @param x {Number} X position
+* @param y {Number} Y position
+* @return Kiwi.Group
+* @public
+* @static
 */
 
-Kiwi.Plugins.ParticlePack2.Shotgunflashorange = function (state,x,y) { 
-   this.config = {
-  &quot;numParts&quot;: 6,
-  &quot;posOffsetX&quot;: 0,
-  &quot;posOffsetY&quot;: 0,
-  &quot;posRadius&quot;: 5,
-  &quot;posRadialStart&quot;: 0,
-  &quot;posRadialEnd&quot;: 6.283185307179586,
-  &quot;posWidth&quot;: 200,
-  &quot;posHeight&quot;: 200,
-  &quot;posConstrainRect&quot;: true,
-  &quot;posAngle&quot;: 0,
-  &quot;posLength&quot;: 200,
-  &quot;posRandomLine&quot;: true,
-  &quot;posConstrainRadial&quot;: true,
-  &quot;posRandomRadial&quot;: true,
-  &quot;posShape&quot;: &quot;point&quot;,
-  &quot;maxVel&quot;: 100,
-  &quot;minVel&quot;: 70,
-  &quot;velConstrainRect&quot;: true,
-  &quot;velConstrainRadial&quot;: false,
-  &quot;velRandomRadial&quot;: false,
-  &quot;velShape&quot;: &quot;point&quot;,
-  &quot;velOffsetX&quot;: 400,
-  &quot;velOffsetY&quot;: 0,
-  &quot;velAngMin&quot;: 0,
-  &quot;velAngMax&quot;: 0,
-  &quot;velRadius&quot;: 144,
-  &quot;velRadialStart&quot;: 0,
-  &quot;velRadialEnd&quot;: 6.283185307179586,
-  &quot;velWidth&quot;: 200,
-  &quot;velHeight&quot;: 200,
-  &quot;velAngle&quot;: 0,
-  &quot;velLength&quot;: 20,
-  &quot;velRandomLine&quot;: true,
-  &quot;minStartTime&quot;: 0,
-  &quot;maxStartTime&quot;: 0,
-  &quot;minLifespan&quot;: 0.2,
-  &quot;maxLifespan&quot;: 0.4,
-  &quot;gravityX&quot;: 0,
-  &quot;gravityY&quot;: 0,
-  &quot;startSize&quot;: 1,
-  &quot;endSize&quot;: 200,
-  &quot;loop&quot;: false,
-  &quot;colEnvKeyframes&quot;: [
-    &quot;0.2&quot;,
-    &quot;0.3&quot;
-  ],
-  &quot;alpha&quot;: 1,
-  &quot;colEnv0&quot;: [
-    0.996078431372549,
-    0.9137254901960784,
-    0.7294117647058823
-  ],
-  &quot;colEnv1&quot;: [
-    0.9921568627450981,
-    0.792156862745098,
-    0.20392156862745098
-  ],
-  &quot;colEnv2&quot;: [
-    0.9921568627450981,
-    0.6,
-    0.2901960784313726
-  ],
-  &quot;colEnv3&quot;: [
-    0.996078431372549,
-    0.32941176470588235,
-    0.17254901960784313
-  ],
-  &quot;alphaGradient&quot;: [
-    &quot;1&quot;,
-    &quot;1&quot;,
-    &quot;0&quot;,
-    &quot;0&quot;
-  ],
-  &quot;alphaStops&quot;: [
-    0.3,
-    &quot;0.5&quot;
-  ],
-  &quot;additive&quot;: true,
-  &quot;cells&quot;: [
-    4,
-    16,
-    17
-  ],
-  &quot;textureID&quot;: &quot;_128x128&quot;
-}
-  
-   return new Kiwi.GameObjects.StatelessParticles(state,state.textures.particlePack2SpriteSheet,x,y,this.config);
-}
+Kiwi.Plugins.ParticlePack2.Shotgunflashorange = function( state, x, y ) {
+	this.config = {
+		&quot;numParts&quot;: 6,
+		&quot;posOffsetX&quot;: 0,
+		&quot;posOffsetY&quot;: 0,
+		&quot;posRadius&quot;: 5,
+		&quot;posRadialStart&quot;: 0,
+		&quot;posRadialEnd&quot;: 6.283185307179586,
+		&quot;posWidth&quot;: 200,
+		&quot;posHeight&quot;: 200,
+		&quot;posConstrainRect&quot;: true,
+		&quot;posAngle&quot;: 0,
+		&quot;posLength&quot;: 200,
+		&quot;posRandomLine&quot;: true,
+		&quot;posConstrainRadial&quot;: true,
+		&quot;posRandomRadial&quot;: true,
+		&quot;posShape&quot;: &quot;point&quot;,
+		&quot;maxVel&quot;: 100,
+		&quot;minVel&quot;: 70,
+		&quot;velConstrainRect&quot;: true,
+		&quot;velConstrainRadial&quot;: false,
+		&quot;velRandomRadial&quot;: false,
+		&quot;velShape&quot;: &quot;point&quot;,
+		&quot;velOffsetX&quot;: 400,
+		&quot;velOffsetY&quot;: 0,
+		&quot;velAngMin&quot;: 0,
+		&quot;velAngMax&quot;: 0,
+		&quot;velRadius&quot;: 144,
+		&quot;velRadialStart&quot;: 0,
+		&quot;velRadialEnd&quot;: 6.283185307179586,
+		&quot;velWidth&quot;: 200,
+		&quot;velHeight&quot;: 200,
+		&quot;velAngle&quot;: 0,
+		&quot;velLength&quot;: 20,
+		&quot;velRandomLine&quot;: true,
+		&quot;minStartTime&quot;: 0,
+		&quot;maxStartTime&quot;: 0,
+		&quot;minLifespan&quot;: 0.2,
+		&quot;maxLifespan&quot;: 0.4,
+		&quot;gravityX&quot;: 0,
+		&quot;gravityY&quot;: 0,
+		&quot;startSize&quot;: 1,
+		&quot;endSize&quot;: 200,
+		&quot;loop&quot;: false,
+		&quot;colEnvKeyframes&quot;: [
+			&quot;0.2&quot;,
+			&quot;0.3&quot;
+		],
+		&quot;alpha&quot;: 1,
+		&quot;colEnv0&quot;: [
+			0.996078431372549,
+			0.9137254901960784,
+			0.7294117647058823
+		],
+		&quot;colEnv1&quot;: [
+			0.9921568627450981,
+			0.792156862745098,
+			0.20392156862745098
+		],
+		&quot;colEnv2&quot;: [
+			0.9921568627450981,
+			0.6,
+			0.2901960784313726
+		],
+		&quot;colEnv3&quot;: [
+			0.996078431372549,
+			0.32941176470588235,
+			0.17254901960784313
+		],
+		&quot;alphaGradient&quot;: [
+			&quot;1&quot;,
+			&quot;1&quot;,
+			&quot;0&quot;,
+			&quot;0&quot;
+		],
+		&quot;alphaStops&quot;: [
+			0.3,
+			&quot;0.5&quot;
+		],
+		&quot;additive&quot;: true,
+		&quot;cells&quot;: [
+			4,
+			16,
+			17
+		],
+		&quot;textureID&quot;: &quot;_128x128&quot;
+	};
+
+	return new Kiwi.GameObjects.StatelessParticles(
+		state, state.textures.particlePack2SpriteSheet, x, y,
+		this.config);
+};
 
     </pre>
 </div>
