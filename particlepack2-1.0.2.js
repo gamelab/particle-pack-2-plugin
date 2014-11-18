@@ -99,7 +99,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -112,8 +112,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -137,14 +137,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -184,7 +184,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -197,8 +197,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -222,14 +222,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -253,7 +253,6 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashblue = function( state, x, y ) {
 
 	return group;
 };
-
 
 /**
 * ParticlePack2 Flamethrowerblue Effect.
@@ -311,8 +310,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerblue = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -336,14 +335,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -501,11 +500,11 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
-		 "colEnv0": [
+		"colEnv0": [
 			0.611764705882353,
 			0.9647058823529412,
 			0.9921568627450981
@@ -526,14 +525,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -613,8 +612,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -638,14 +637,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -699,8 +698,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -724,14 +723,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -786,8 +785,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -811,14 +810,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -871,8 +870,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -896,14 +895,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.8"
+			0.8
 		],
 		"additive": true,
 		"cells": [
@@ -918,16 +917,16 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashblue = function( state, x, y ) {
 	group.y = y;
 	var flares1 = new Kiwi.GameObjects.StatelessParticles(
 		state, state.textures.particlePack2SpriteSheet, 0, 0,
-		this.flares1Config);
+		this.flares1Config );
 	var flares2 = new Kiwi.GameObjects.StatelessParticles(
 		state, state.textures.particlePack2SpriteSheet, 0, 0,
-		this.flares2Config);
+		this.flares2Config );
 	var flares3 = new Kiwi.GameObjects.StatelessParticles(
 		state, state.textures.particlePack2SpriteSheet, 0, 0,
-		this.flares3Config);
+		this.flares3Config );
 	var flares4 = new Kiwi.GameObjects.StatelessParticles(
 		state, state.textures.particlePack2SpriteSheet, 0, 0,
-		this.flares4Config);
+		this.flares4Config );
 	group.addChild( flares1 );
 	group.addChild( flares2 );
 	group.addChild( flares3 );
@@ -991,8 +990,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashblue = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -1016,14 +1015,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1076,8 +1075,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashblue = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1101,14 +1100,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1188,47 +1187,47 @@ Kiwi.Plugins.ParticlePack2.Rifleflashblue = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-		"0.2",
-		"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
-		0.611764705882353,
-		0.9647058823529412,
-		0.9921568627450981
+			0.611764705882353,
+			0.9647058823529412,
+			0.9921568627450981
 		],
 		"colEnv1": [
-		0.4392156862745098,
-		0.7450980392156863,
-		0.9921568627450981
+			0.4392156862745098,
+			0.7450980392156863,
+			0.9921568627450981
 		],
 		"colEnv2": [
-		0.10980392156862745,
-		0.38823529411764707,
-		0.9921568627450981
+			0.10980392156862745,
+			0.38823529411764707,
+			0.9921568627450981
 		],
 		"colEnv3": [
-		0.06666666666666667,
-		0.2549019607843137,
-		0.9921568627450981
+			0.06666666666666667,
+			0.2549019607843137,
+			0.9921568627450981
 		],
 		"alphaGradient": [
-		"1",
-		"1",
-		"1",
-		"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-		0.3,
-		"0.5"
+			0.3,
+			0.5
 		],
 		"additive": true,
 		"cells": [
-		0,
-		1,
-		2,
-		3,
-		4
+			0,
+			1,
+			2,
+			3,
+			4
 		],
 		"textureID": "_128x128"
 	};
@@ -1277,45 +1276,45 @@ Kiwi.Plugins.ParticlePack2.Rifleflashblue = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-		"0.2",
-		"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
-		0.611764705882353,
-		0.9647058823529412,
-		0.9921568627450981
+			0.611764705882353,
+			0.9647058823529412,
+			0.9921568627450981
 		],
 		"colEnv1": [
-		0.4392156862745098,
-		0.7450980392156863,
-		0.9921568627450981
+			0.4392156862745098,
+			0.7450980392156863,
+			0.9921568627450981
 		],
 		"colEnv2": [
-		0.10980392156862745,
-		0.38823529411764707,
-		0.9921568627450981
+			0.10980392156862745,
+			0.38823529411764707,
+			0.9921568627450981
 		],
 		"colEnv3": [
-		0.06666666666666667,
-		0.2549019607843137,
-		0.9921568627450981
+			0.06666666666666667,
+			0.2549019607843137,
+			0.9921568627450981
 		],
 		"alphaGradient": [
-		"1",
-		"1",
-		"1",
-		"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-		0.3,
-		"0.5"
+			0.3,
+			0.5
 		],
 		"additive": true,
 		"cells": [
-		10,
-		11,
-		12
+			10,
+			11,
+			12
 		],
 		"textureID": "_128x128"
 	};
@@ -1391,8 +1390,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1416,14 +1415,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1495,8 +1494,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1520,14 +1519,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1580,8 +1579,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -1605,14 +1604,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1665,8 +1664,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1690,14 +1689,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1750,8 +1749,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1775,14 +1774,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1835,8 +1834,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1860,14 +1859,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -1945,7 +1944,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -1958,8 +1957,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -1983,14 +1982,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2030,7 +2029,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -2043,8 +2042,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -2068,14 +2067,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2099,7 +2098,6 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashgreen = function( state, x, y ) {
 
 	return group;
 };
-
 
 /**
 * ParticlePack2 Flamethrowergreen Effect.
@@ -2157,8 +2155,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowergreen = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -2182,14 +2180,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowergreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2347,8 +2345,8 @@ Kiwi.Plugins.ParticlePack2.Laserflashgreen = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -2372,14 +2370,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2459,8 +2457,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 			"endSize": 70,
 			"loop": false,
 			"colEnvKeyframes": [
-				"0.2",
-				"0.3"
+				0.2,
+				0.3
 			],
 			"alpha": 0.5,
 			"colEnv0": [
@@ -2484,14 +2482,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 				0.2
 			],
 			"alphaGradient": [
-				"1",
-				"1",
-				"0",
-				"0"
+				1,
+				1,
+				0,
+				0
 			],
 			"alphaStops": [
 				0.3,
-				"0.5"
+				0.5
 			],
 			"additive": true,
 			"cells": [
@@ -2545,8 +2543,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -2570,14 +2568,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2632,8 +2630,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -2657,14 +2655,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2717,8 +2715,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -2742,14 +2740,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.8"
+			0.8
 		],
 		"additive": true,
 		"cells": [
@@ -2794,23 +2792,23 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashgreen = function( state, x, y ) {
 
 Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 	this.flares1Config = {
-	"numParts": 1,
-	"posOffsetX": 10,
-	"posOffsetY": 0,
-	"posRadius": 75.6,
-	"posRadialStart": 0,
-	"posRadialEnd": 6.283185307179586,
-	"posWidth": 200,
-	"posHeight": 200,
-	"posConstrainRect": true,
-	"posAngle": 0,
-	"posLength": 200,
-	"posRandomLine": true,
-	"posConstrainRadial": true,
-	"posRandomRadial": true,
-	"posShape": "point",
-	"maxVel": 100,
-	"minVel": 70,
+		"numParts": 1,
+		"posOffsetX": 10,
+		"posOffsetY": 0,
+		"posRadius": 75.6,
+		"posRadialStart": 0,
+		"posRadialEnd": 6.283185307179586,
+		"posWidth": 200,
+		"posHeight": 200,
+		"posConstrainRect": true,
+		"posAngle": 0,
+		"posLength": 200,
+		"posRandomLine": true,
+		"posConstrainRadial": true,
+		"posRandomRadial": true,
+		"posShape": "point",
+		"maxVel": 100,
+		"minVel": 70,
 		"velConstrainRect": true,
 		"velConstrainRadial": false,
 		"velRandomRadial": false,
@@ -2837,8 +2835,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -2862,14 +2860,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2922,8 +2920,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -2947,14 +2945,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -2977,7 +2975,6 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 
 	return group;
 };
-
 
 /**
 * ParticlePack2 Rifleflashgreen Effect.
@@ -3035,8 +3032,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashgreen = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3060,14 +3057,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3124,8 +3121,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashgreen = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3149,14 +3146,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3238,8 +3235,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashgreen = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3263,14 +3260,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3342,8 +3339,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3367,14 +3364,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3427,8 +3424,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -3452,14 +3449,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3512,8 +3509,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3537,14 +3534,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3597,8 +3594,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3622,14 +3619,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3682,8 +3679,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3707,14 +3704,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3792,7 +3789,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -3805,8 +3802,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -3830,14 +3827,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -3877,7 +3874,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -3890,8 +3887,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -3915,14 +3912,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4004,8 +4001,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerorange = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -4029,14 +4026,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4194,11 +4191,11 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
-		 "colEnv0": [
+		"colEnv0": [
 			0.996078431372549,
 			0.9137254901960784,
 			0.7294117647058823
@@ -4219,14 +4216,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4306,8 +4303,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -4331,14 +4328,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4392,8 +4389,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -4417,14 +4414,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4479,8 +4476,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -4504,14 +4501,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4564,8 +4561,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -4589,14 +4586,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.8"
+			0.8
 		],
 		"additive": true,
 		"cells": [
@@ -4684,8 +4681,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -4709,14 +4706,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4769,8 +4766,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -4794,14 +4791,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4881,8 +4878,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashorange = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -4906,14 +4903,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -4970,8 +4967,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashorange = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -4995,10 +4992,10 @@ Kiwi.Plugins.ParticlePack2.Rifleflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
@@ -5084,8 +5081,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashorange = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5109,14 +5106,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5188,8 +5185,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5213,14 +5210,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5273,8 +5270,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -5298,14 +5295,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5358,8 +5355,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5383,14 +5380,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5443,8 +5440,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5468,14 +5465,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5528,8 +5525,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5553,14 +5550,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5638,7 +5635,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -5651,8 +5648,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -5676,14 +5673,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5723,7 +5720,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -5736,8 +5733,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -5761,14 +5758,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -5849,8 +5846,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerpurple = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -5874,14 +5871,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6039,8 +6036,8 @@ Kiwi.Plugins.ParticlePack2.Laserflashpurple = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6064,14 +6061,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6151,8 +6148,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -6176,14 +6173,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6237,8 +6234,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6262,14 +6259,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6324,8 +6321,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -6349,14 +6346,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6409,8 +6406,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6434,10 +6431,10 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
@@ -6529,8 +6526,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashpurple = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -6554,14 +6551,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6614,8 +6611,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashpurple = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6639,14 +6636,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6726,8 +6723,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashpurple = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6751,14 +6748,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6815,8 +6812,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashpurple = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6840,14 +6837,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -6929,8 +6926,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashpurple = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -6954,14 +6951,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7033,8 +7030,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7058,14 +7055,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7118,8 +7115,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -7143,14 +7140,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7203,8 +7200,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7228,14 +7225,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7288,8 +7285,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7313,14 +7310,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7373,8 +7370,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7398,14 +7395,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashpurple = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7483,7 +7480,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -7496,8 +7493,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7521,14 +7518,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7568,7 +7565,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -7581,8 +7578,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -7606,14 +7603,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7694,8 +7691,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerred = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -7719,14 +7716,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7884,8 +7881,8 @@ Kiwi.Plugins.ParticlePack2.Laserflashred = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -7909,14 +7906,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashred = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -7996,8 +7993,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -8021,14 +8018,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8082,8 +8079,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8107,14 +8104,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8169,8 +8166,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -8194,14 +8191,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8254,8 +8251,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8279,14 +8276,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.8"
+			0.8
 		],
 		"additive": true,
 		"cells": [
@@ -8374,8 +8371,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashred = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -8399,14 +8396,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8459,8 +8456,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashred = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8484,14 +8481,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8571,8 +8568,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashred = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8596,14 +8593,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8660,8 +8657,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashred = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8685,14 +8682,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8774,8 +8771,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashred = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8799,14 +8796,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8878,8 +8875,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -8903,14 +8900,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -8963,8 +8960,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -8988,14 +8985,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9048,8 +9045,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9073,14 +9070,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9133,8 +9130,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9158,14 +9155,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9218,8 +9215,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9243,14 +9240,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9328,7 +9325,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -9341,8 +9338,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9366,14 +9363,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9413,7 +9410,7 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 		"velRadialEnd": 6.283185307179586,
 		"velWidth": 200,
 		"velHeight": 200,
-		"velAngle": 1.4575697530163152e-7,
+		"velAngle": 0,
 		"velLength": 200,
 		"velRandomLine": true,
 		"minStartTime": 0,
@@ -9426,8 +9423,8 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -9451,14 +9448,14 @@ Kiwi.Plugins.ParticlePack2.Explosiveflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9539,44 +9536,44 @@ Kiwi.Plugins.ParticlePack2.Flamethroweryellow = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-		"0.2",
-		"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
-		0.9921568627450981,
-		0.9764705882352941,
-		0.8313725490196079
+			0.9921568627450981,
+			0.9764705882352941,
+			0.8313725490196079
 		],
 		"colEnv1": [
-		0.9921568627450981,
-		0.9176470588235294,
-		0.5176470588235295
+			0.9921568627450981,
+			0.9176470588235294,
+			0.5176470588235295
 		],
 		"colEnv2": [
-		0.9921568627450981,
-		0.8588235294117647,
-		0.2196078431372549
+			0.9921568627450981,
+			0.8588235294117647,
+			0.2196078431372549
 		],
 		"colEnv3": [
-		0.996078431372549,
-		0.8235294117647058,
-		0.027450980392156862
+			0.996078431372549,
+			0.8235294117647058,
+			0.027450980392156862
 		],
 		"alphaGradient": [
-		"0",
-		"1",
-		"1",
-		"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-		"0.1",
-		"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [
-		3,
-		4
+			3,
+			4
 		],
 		"textureID": "_128x128"
 	};
@@ -9729,8 +9726,8 @@ Kiwi.Plugins.ParticlePack2.Laserflashyellow = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9754,14 +9751,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9841,8 +9838,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -9866,14 +9863,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -9927,8 +9924,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 		"endSize": 50,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -9952,14 +9949,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10014,8 +10011,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.5,
 		"colEnv0": [
@@ -10039,14 +10036,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10099,8 +10096,8 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 		"endSize": 70,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10124,14 +10121,14 @@ Kiwi.Plugins.ParticlePack2.Machinegunflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.8"
+			0.8
 		],
 		"additive": true,
 		"cells": [
@@ -10219,8 +10216,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashyellow = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -10244,14 +10241,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10304,8 +10301,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashyellow = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10329,14 +10326,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10416,8 +10413,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashyellow = function( state, x, y ) {
 		"endSize": 20,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10441,14 +10438,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10505,8 +10502,8 @@ Kiwi.Plugins.ParticlePack2.Rifleflashyellow = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10530,14 +10527,14 @@ Kiwi.Plugins.ParticlePack2.Rifleflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10619,8 +10616,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashyellow = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10644,14 +10641,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10723,8 +10720,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10748,14 +10745,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10808,8 +10805,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -10833,14 +10830,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10893,8 +10890,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -10918,14 +10915,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -10978,8 +10975,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -11003,14 +11000,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -11063,8 +11060,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -11088,14 +11085,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [

@@ -54,8 +54,8 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerred = function( state, x, y ) {
 		"endSize": 80,
 		"loop": true,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -79,14 +79,14 @@ Kiwi.Plugins.ParticlePack2.Flamethrowerred = function( state, x, y ) {
 			0
 		],
 		"alphaGradient": [
-			"0",
-			"1",
-			"1",
-			"0"
+			0,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
-			"0.1",
-			"0.5"
+			0.1,
+			0.5
 		],
 		"additive": true,
 		"cells": [

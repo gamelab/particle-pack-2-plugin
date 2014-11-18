@@ -141,11 +141,11 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
-		 "colEnv0": [
+		"colEnv0": [
 			0.996078431372549,
 			0.9137254901960784,
 			0.7294117647058823
@@ -166,14 +166,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [

@@ -54,8 +54,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -79,14 +79,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -139,8 +139,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -164,14 +164,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashorange = function( state, x, y ) {
 			0.17254901960784313
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [

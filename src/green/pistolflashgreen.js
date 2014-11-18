@@ -11,23 +11,23 @@
 
 Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 	this.flares1Config = {
-	"numParts": 1,
-	"posOffsetX": 10,
-	"posOffsetY": 0,
-	"posRadius": 75.6,
-	"posRadialStart": 0,
-	"posRadialEnd": 6.283185307179586,
-	"posWidth": 200,
-	"posHeight": 200,
-	"posConstrainRect": true,
-	"posAngle": 0,
-	"posLength": 200,
-	"posRandomLine": true,
-	"posConstrainRadial": true,
-	"posRandomRadial": true,
-	"posShape": "point",
-	"maxVel": 100,
-	"minVel": 70,
+		"numParts": 1,
+		"posOffsetX": 10,
+		"posOffsetY": 0,
+		"posRadius": 75.6,
+		"posRadialStart": 0,
+		"posRadialEnd": 6.283185307179586,
+		"posWidth": 200,
+		"posHeight": 200,
+		"posConstrainRect": true,
+		"posAngle": 0,
+		"posLength": 200,
+		"posRandomLine": true,
+		"posConstrainRadial": true,
+		"posRandomRadial": true,
+		"posShape": "point",
+		"maxVel": 100,
+		"minVel": 70,
 		"velConstrainRect": true,
 		"velConstrainRadial": false,
 		"velRandomRadial": false,
@@ -54,8 +54,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 		"endSize": 60,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.7,
 		"colEnv0": [
@@ -79,14 +79,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -139,8 +139,8 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 		"endSize": 80,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -164,14 +164,14 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -194,4 +194,3 @@ Kiwi.Plugins.ParticlePack2.Pistolflashgreen = function( state, x, y ) {
 
 	return group;
 };
-

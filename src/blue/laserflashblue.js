@@ -141,11 +141,11 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
-		 "colEnv0": [
+		"colEnv0": [
 			0.611764705882353,
 			0.9647058823529412,
 			0.9921568627450981
@@ -166,14 +166,14 @@ Kiwi.Plugins.ParticlePack2.Laserflashblue = function( state, x, y ) {
 			0.9921568627450981
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [

@@ -54,8 +54,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 150,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -79,14 +79,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -139,8 +139,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 0.3,
 		"colEnv0": [
@@ -164,14 +164,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -224,8 +224,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 90,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -249,14 +249,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			".4",
-			".2",
-			"0"
+			1,
+			0.4,
+			0.2,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -309,8 +309,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 10,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -334,14 +334,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			".7",
-			".5",
-			"0"
+			1,
+			0.7,
+			0.5,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
@@ -394,8 +394,8 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 		"endSize": 1,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -419,14 +419,14 @@ Kiwi.Plugins.ParticlePack2.Sniperflashyellow = function( state, x, y ) {
 			0.027450980392156862
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"1",
-			"0"
+			1,
+			1,
+			1,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [

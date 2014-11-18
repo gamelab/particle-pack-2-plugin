@@ -54,8 +54,8 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashgreen = function( state, x, y ) {
 		"endSize": 200,
 		"loop": false,
 		"colEnvKeyframes": [
-			"0.2",
-			"0.3"
+			0.2,
+			0.3
 		],
 		"alpha": 1,
 		"colEnv0": [
@@ -79,14 +79,14 @@ Kiwi.Plugins.ParticlePack2.Shotgunflashgreen = function( state, x, y ) {
 			0.2
 		],
 		"alphaGradient": [
-			"1",
-			"1",
-			"0",
-			"0"
+			1,
+			1,
+			0,
+			0
 		],
 		"alphaStops": [
 			0.3,
-			"0.5"
+			0.5
 		],
 		"additive": true,
 		"cells": [
