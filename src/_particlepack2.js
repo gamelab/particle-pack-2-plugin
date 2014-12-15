@@ -23,7 +23,7 @@ Kiwi.Plugins.ParticlePack2 = {
 	* @type String
 	* @public
 	*/
-	version:"1.0.2",
+	version:"1.0.3",
 
 	/**
 	* The minimum version of Kiwi.js required to run this plugin
@@ -43,7 +43,7 @@ Kiwi.Plugins.ParticlePack2 = {
 	pluginDependencies: [
 		{
 			name:"ParticlesGL",
-			minimumVersion:"1.1.1"
+			minimumVersion:"1.1.2"
 		}
 
 	]

@@ -1,20 +1,18 @@
 WebGL Particles Pack 2 - Gunflare Particles
 =======================================
 
-Name: ParticlesPack2
-
-Version: 1.0.2
-
-Type: GameObject Plugin
-
-Author: Kiwi.js Team
-
-Website: www.kiwijs.org
-
-KiwiJS last version tested: 1.1.1
-
+	Name: ParticlesPack2
+	Version: 1.0.3
+	Type: GameObject Plugin
+	Author: Kiwi.js Team
+	Website: www.kiwijs.org
+	KiwiJS last version tested: 1.1.1
 
 ## Version Release Notes
+
+1.0.3
+- Update library to ParticlesGL 1.1.2 to prevent bugs
+
 1.0.2
 - Update libraries to ParticlesGL 1.1.1 and KiwiJS 1.1.1
 - Fixed a config bug that would make particles invisible on some devices
@@ -22,18 +20,19 @@ KiwiJS last version tested: 1.1.1
 1.0.0
 - First Release ready for Kiwi.js version 1.0.0
 
+## Description
 
-## Description:
 The Gunflares Particle Pack plugin comes with a bunch of preconfigured particle effects to add to your game.
-This plugin requires the ParticlesGL plugin, which is included with the pack. 
-If you have any problems then feel free to contact us via the http://www.kiwijs.org/help
 
+This plugin requires the ParticlesGL plugin, which is included with the pack.
+If you have any problems then feel free to contact us via http://www.kiwijs.org/help
 
 ## Dependencies
-- Kiwi.js version 1.0.0 or greater
-- ParticlesGL version 1.0.0 or greater
 
-## How to Include: 
+- Kiwi.js version 1.1.0 or greater
+- ParticlesGL version 1.1.2 or greater
+
+## How to Include:
 Copy the files you need:
 - Create a folder called `plugins` in your project folder.
 - Copy `particlesgl.js` (or `particlesgl.min.js`) from the `lib` folder into your `plugins` folder.
@@ -54,10 +53,10 @@ This will add ALL the particle effects to your game. If you want to add them ind
 	<script src="plugins/particles/explosiveflashblue.js></script>
 
 Register the plugins:
-You'll need to tell you game that it intends to use the plugins by adding their names to the plugin config option. Also remember that the effects only work with the WebGL renderer. 
+You'll need to tell you game that it intends to use the plugins by adding their names to the plugin config option. Also remember that the effects only work with the WebGL renderer.
 
 	var MyGame = new Kiwi.Game( "exampleGameContainer",
-		"testGame", MyState, { renderer:Kiwi.RENDERER_WEBGL, 
+		"testGame", MyState, { renderer:Kiwi.RENDERER_WEBGL,
 		plugins: [ "ParticlePack2", "ParticlesGL" ] } );
 
 ## How to use
@@ -115,7 +114,7 @@ Note that some of these functions return a group of gameobjects and others retur
 	this.addChild( this.flamethrowerblue );
 
 If the effect is a single effect you can start it emitting like this
-	
+
 	this.flamethrowerblue.startEmitting();
 
 If it's a group you'll need to start each individually - for example
